@@ -1,0 +1,30 @@
+body {
+  color: #999;
+  cursor: url(../images/custom.svg);
+}
+
+.game_cell {
+  border: 1px solid red;
+  width: 100px;
+  height: 100px;
+}
+
+#board {
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 500px;
+  position: relative;  
+}
+
+#board .tile {
+  display: block;
+  height: 24%;
+  width: 24%;
+  position: relative;
+  border: 1px solid green;
+}
+
+.hidden {
+  display: none;
+}
